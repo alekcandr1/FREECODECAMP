@@ -61,6 +61,45 @@ myVar--;
 // Decimal numbers
 const myDecimal = 3.5;
 
+// Multiply Two Decimals with JavaScript
+const product = 2.0 * 2.5;
+
+// divide
+const quotient = 4.4 / 2.0; // Change this line
+
+// Finding a Remainder in JavaScript
+let remainder = 11 % 3;
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+// Only change code below this line
+a += 12;
+b += 9;
+c += 7;
+
+// quoted
+
+/** 
+ * 
+ * Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\t	tab
+\r	carriage return
+\b	backspace
+\f	form feed
+
+**/
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+
+
+
 
 
 
