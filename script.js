@@ -27,6 +27,7 @@ a = a + 1;
 b = b + 5;
 c = c + " String!";
 
+// case
 // Variable declarations
 var studlyCapVar;
 var properCamelCase;
@@ -36,3 +37,30 @@ var titleCaseOver;
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
+
+// let
+let catName = "Oliver";
+let catSound = "Meow!";
+
+// Add Two Numbers with JavaScript
+const sum = 10 + 10;
+
+// Subtract One Number from Another with JavaScript
+const difference = 45 - 23;
+
+// Multiply Two Numbers with JavaScript
+const product = 8 * 10;
+
+const quotient = 66 / 33;
+
+// Increment a Number with JavaScript
+myVar++;
+
+myVar--;
+
+// Decimal numbers
+const myDecimal = 3.5;
+
+
+
+
