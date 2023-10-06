@@ -112,6 +112,51 @@ const someAdjective = "cool";
 let myStr = "Learning to code is ";
 myStr += someAdjective;
 
+// Find the Length of a String
+
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+
+// еще 5
+
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+// еще 3
+
+// Use Bracket Notation to Find the Nth Character in a String
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
+
+// Use Bracket Notation to Find the Last Character in a String
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+
+// Use Bracket Notation to Find the Nth-to-Last Character in a String
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+
+
+
 
 
 
