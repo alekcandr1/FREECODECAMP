@@ -198,4 +198,22 @@ const myArray = [
 
 //7 Manipulate Arrays With push Method
 const myArray = [["John", 23], ["cat", 2]];
-myArray.push(["dog", 3]);
+const removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray);
+console.log(myArray);
+
+//8 Manipulate Arrays With shift Method
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift();
+
+//9 Manipulate Arrays With unshift Method
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+
+//10 Shopping List
+
+//11 Write Reusable JavaScript with Functions
+function reusableFunction () {
+    
+}
