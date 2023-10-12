@@ -215,5 +215,54 @@ myArray.unshift(["Paul", 35]);
 
 //11 Write Reusable JavaScript with Functions
 function reusableFunction () {
-    
+    console.log("Hi World");
 }
+reusableFunction();
+
+// 12
+function functionWithArgs (param1, param2) {
+    console.log(param1 + param2);
+    }
+functionWithArgs(1, 2);
+
+//13 Return a Value from a Function with Return
+function timesFive (num) {
+    return num * 5;
+  }
+  timesFive(5);
+
+  //14
+
+  //15
+  //16
+  //17 Understanding Undefined Value returned from a Function
+  //18 Assignment with a Returned Value
+  let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7);
+
+//19 Stand in Line
+function nextInLine(arr, item) {
+    // Only change code below this line
+    
+  
+    arr.push(item);
+    const removedFromMyArray = arr.shift();
+    return removedFromMyArray;
+    
+    // Only change code above this line
+  }
+  
+  // Setup
+  let testArr = [1, 2, 3, 4, 5];
+  
+  // Display code
+  console.log("Before: " + JSON.stringify(testArr));
+  console.log(nextInLine(testArr, 6));
+  console.log("After: " + JSON.stringify(testArr));
+
+  //20 Understanding Boolean Values
+  
