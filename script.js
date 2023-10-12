@@ -265,4 +265,10 @@ function nextInLine(arr, item) {
   console.log("After: " + JSON.stringify(testArr));
 
   //20 Understanding Boolean Values
+  function welcomeToBooleans() {
+    // Only change code below this line
   
+    return true; // Change this line
+  
+    // Only change code above this line
+  }
