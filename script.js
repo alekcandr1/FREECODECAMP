@@ -155,10 +155,26 @@ const lastName = "Lovelace";
 const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
 
 
-// Word Blanks
+// 1 Word Blanks 
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
 
+// Only change code below this line
+const wordBlanks = "It was really " + myAdjective + " " + myNoun + " and we " + myVerb + " ourselves " + myAdverb + "."; // Change this line
+// Only change code above this line
 
+// 2 Store Multiple Values in one Variable using JavaScript Arrays
+// Only change code below this line
+const myArray = ["string", 1];
 
+// 3 Nest one Array within Another Array
+// Only change code below this line
+const myArray = [[1, 2], [3, 5]];
+
+//4 Access Array Data with Indexes
+const myArray = [50, 60, 70];
 
 
 
